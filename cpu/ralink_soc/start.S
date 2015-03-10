@@ -1503,7 +1503,7 @@ tRFCinit:
 	/* SPI_HOLD should not set as GPIO output */	
 	//set all GPIO to output high
         li t5, RALINK_PIO_BASE + 0x24
-        li t6, 0xffffbfff
+        li t6, 0xffffafff
         nop
         sw t6, 0(t5)
         nop

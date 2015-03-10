@@ -1405,9 +1405,9 @@ void board_init_r (gd_t *id, ulong dest_addr)
 		int reg, boot_from_eeprom=0;
 		reg = RALINK_REG(RT2880_SYSCFG_REG);
 		/* Uboot Version and Configuration*/
-		printf("============================================ \n");
-		printf("Ralink UBoot Version: %s\n", RALINK_LOCAL_VERSION);
-		printf("-------------------------------------------- \n");
+		printf("============================================================= \n");
+		printf("RT5350F-OLinuXino UBoot Version: %s\n", RALINK_LOCAL_VERSION);
+		printf("--------------------------------------------------------------\n");
 		printf("%s %s %s\n",CHIP_TYPE, CHIP_VERSION, GMAC_MODE);
 		boot_from_eeprom = ((reg>>18) & 0x01);
 		if(boot_from_eeprom){
@@ -1571,9 +1571,9 @@ void board_init_r (gd_t *id, ulong dest_addr)
 			size = DRAM_SIZE;
 		}
 #endif
-		printf("============================================ \n");
-		printf("Ralink UBoot Version: %s\n", RALINK_LOCAL_VERSION);
-		printf("-------------------------------------------- \n");
+		printf("============================================================== \n");
+		printf("RT5350F-OLinuXino UBoot Version: %s\n", RALINK_LOCAL_VERSION);
+		printf("-------------------------------------------------------------- \n");
 		printf("%s %s %s\n",CHIP_TYPE, CHIP_VERSION, GMAC_MODE);
 #if defined (RT63365_ASIC_BOARD) || defined (RT63365_FPGA_BOARD)
 #if defined (RT63365_FPGA_BOARD)
