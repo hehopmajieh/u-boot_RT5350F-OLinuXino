@@ -1,0 +1,33 @@
+# 1 "/home/hehopmajieh/olinuxino/rt5350f/Uboot/rtc//"
+date.o: date.c /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/common.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/config.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/configs/rt2880.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/cmd_confdefs.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/bitops.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/bitops.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/types.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/config.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/posix_types.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/stddef.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/posix_types.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/types.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/byteorder.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/byteorder/little_endian.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/byteorder/swab.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/byteorder/generic.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/sgidefs.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/system.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/ptrace.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/isadep.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/linux/string.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/string.h \
+  /opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/part.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/ide.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/flash.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/image.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/u-boot.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/global_data.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/asm/regdef.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/command.h \
+  /home/hehopmajieh/olinuxino/rt5350f/Uboot/include/rtc.h
